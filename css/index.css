@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/**CSS Reset 开始**/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+}
+blockquote,q {quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after {content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+/**CSS Reset 结束**/
+
+/**公共样式开始**/
+body,th,td,button,input,select,textarea {font: 12px/1.62 "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif;color: #333;}
+ol,ul {list-style: none;}
+img {border:0;vertical-align:middle;}
+a {text-decoration: none;outline:none;blr:expression(this.onFocus=this.blur());}
+h1 {font-size:36px;}
+h2 {font-size:30px;}
+h3 {font-size:24px;}
+h4 {font-size:18px;}
+h5 {font-size:14px;}
+h6 {font-size:12px;}
+.left, .l {float:left;}
+.right, .r {float:right;}
+.clearfix, .cf{*zoom:1}
+.clearfix:after, .cf:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clear, .cl {clear:both;}
+.login{
+	width:540px;
+	height: 340px;
+	background-color: #00a4ff;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-170px 0 0 -270px; 
+}
+.login-main{
+	color: #fff;
+}
+.login-main ul li{
+	margin-top: 10px;
+}
+.login-main ul li span{
+	display: inline-block;
+	width:125px;
+	height: 30px;
+	text-align: right;
+	font-size: 14px;.
+}
+.login-main ul li input[type="text"],.login-main ul li input[type="password"]{
+	width:250px;
+	height: 30px;
+	padding:0 5px;
+}
+.login-main ul li .verify-img{
+	width: 262px;
+	margin-left: 130px;
+	background:#1696d7;
+}
+.login-main ul li input.login-btn{
+	width:80px;
+	float: left;
+	height: 34px;
+	border: none;
+	background:#00497d;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 130px;
+}
+.login-main ul li input.login-btn:hover{
+	background:#015997;
+}
+.login-main ul li .waring{
+	width:134px;
+	display: inline-block;
+	line-height: 34px;
+}
+
+.head{
+	width: 100%;
+	height: 64px;
+	background:#0f92d6;
+	color: #fff;
+}
+.head a{
+	color: #fff;
+}
+.headlogo{
+	margin-right: 10px;
+	line-height: 64px;
+	height: 64px;
+	widtth:184px;
+	text-align: center;
+}
+.headnav li{
+	float: left;
+	margin-right: 10px;
+	background:#22b7eb;
+	text-align: center;
+}
+.headnav li a{
+	display: inline-block;
+	width:70px;
+	padding: 35px 0 5px 0;
+	background:url('../images/ico_bg.png')no-repeat;
+	text-align: center;
+}
+.headnav li:nth-of-type(1) a{
+	background-position: center -95px;
+}
+.headnav li:nth-of-type(2) a{
+	background-position: center -195px;
+}
+.headnav li:nth-of-type(3) a{
+	background-position: center -295px;
+}
+.headnav li:nth-of-type(4) a{
+	background-position: center -395px;
+}
+.headnav li.curent{
+	background:#62d2f9
+}
+.nav-right {
+	float: right;
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+.nav-right li{
+	float: left;
+	padding-left: 10px;
+}
+.nav-right li a{
+	display: inline-block;
+	padding-left: 26px;
+	background: url('../images/main_link_ico.png')no-repeat;
+}
+.nav-right .link-0 a{background-position: 0 0}
+.nav-right .link-1 a{background-position: 0 -148px}
+.nav-right .link-2 a{background-position: 0 -48px}
+.nav-right .link-3 a{background-position: 0 -188px}
+.nav-right .link-4 a{background-position: 0 -98px}
